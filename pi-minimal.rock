@@ -1,0 +1,20 @@
+(Calculate approximate value of pi with the Leibniz series.)
+(This series is simple to implement, but converges very slowly.)
+( pi/4 = 1 - 1/3 + 1/5 - 1/7 + 1/9 ... )
+
+Put 0 minus 1 into X
+Put 1 into N
+Put 1 into D
+Put 0 into S
+Put 100000 into I
+
+While I is greater than 0
+Put N over D into Q
+Put S plus Q into S
+Put X times N into N
+Build D up
+Build D up
+Knock I down
+
+Put 4 times S into Pi
+Say Pi
